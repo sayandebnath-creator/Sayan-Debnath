@@ -1,5 +1,5 @@
 .banner-custom{
-    background-image: url(/assets/Frame.svg);
+    min-height: 70vh;
     background-position: center;
     background-repeat: repeat-x;
     background-size: auto;

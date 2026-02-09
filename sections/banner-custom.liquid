@@ -1,12 +1,12 @@
 <section class="banner-custom"
-    {%if settings.section.background%}
+    {%if section.settings.background%}
     style="background-image:url({{section.settings.background |  image_url: width: 1440}});"
     {%endif%}
     >
     <div class="banner-inner">
        <h1>{{section.settings.heading}}</h1>
        <p>{{section.settings.subheading}}</p>
-       <a href={{section.settings.button_link}}>{{section.settings.button_text}}</a> 
+       <a href="{{section.settings.button_link}}">{{section.settings.button_text}}</a> 
     </div>
 </section>
 
