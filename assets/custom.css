@@ -1,6 +1,8 @@
 .banner-custom{
-    min-height: 70vh;
-    background-position: center;
-    background-repeat: repeat-x;
-    background-size: auto;
+    width: 1140px;
+    height: 780px;
+    background-image: url("{{'Frame.svg' | asset_url}}"), url("{{'Framw.svg' | asset_url}}");
+    background-position: top 64px,right 550px top 442px;
+    background-repeat: no-repeat;
+    background-size: auto,auto;
 }
