@@ -1,8 +1,6 @@
 .banner-custom{
+    background-image: url(/assets/Frame.svg);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    align-items: center;
-    min-height: 70vh; 
+    background-repeat: repeat-x;
+    background-size: auto;
 }
