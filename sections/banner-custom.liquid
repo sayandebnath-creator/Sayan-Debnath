@@ -1,4 +1,8 @@
-<section class="banner-custom">
+<section class="banner-custom"
+    {%if settings.section.background%}
+    style="background-image:url({{section.settings.background |  image_url }});"
+    {%endif%}
+    >
     <div class="banner-inner">
        <h1>{{section.settings.heading}}</h1>
        <p>{{section.settings.subheading}}</p>
@@ -32,6 +36,11 @@
             "type": "url",
             "id": "button_link",
             "label": "button_link"
+        },
+        {
+            "type": "image_picker",
+            "id": "background",
+            "label": "Background Image"
         }
     ],
     "presets": [
