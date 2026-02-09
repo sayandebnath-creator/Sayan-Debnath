@@ -1,0 +1,8 @@
+.banner-custom{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    min-height: 70vh; 
+}
