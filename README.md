@@ -1,4 +1,4 @@
-# Shopify Hiring Test – Custom Page Implementation
+# Shopify Test – Custom Page Implementation
 
 ## Overview
 This project implements a custom Shopify page based on the provided Figma prototype.  
